@@ -117,8 +117,8 @@
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
           // 需要修改https://raw.githubusercontent.com/你的github名/你的github仓库名/master/min_photos/即可
-          var minSrc = 'https://cdn.jsdelivr.net/gh/Qikaile/img/min_photos/' + data.link[i];
-          var src = 'https://cdn.jsdelivr.net/gh/Qikaile/img/photos/' + data.link[i];
+          var minSrc = 'https://img.tjys.ml/min_photos/' + data.link[i];
+          var src = 'https://img.tjys.ml/photos/' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');
           src += '';
