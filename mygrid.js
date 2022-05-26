@@ -1,7 +1,7 @@
 // 获取网页不含域名的路径
 var windowPath = window.location.pathname;
 // 图片信息文件路径
-var imgDataPath = './photoslist.json';
+var imgDataPath = 'https://gcore.jsdelivr.net/gh/qikaile/img/photoslist.json';
 // 图片显示数量
 var imgMaxNum = 50;
 // 获取窗口宽度（以确定图片显示宽度）
